@@ -1,9 +1,9 @@
-:root {
-  /* Fonts */ 
+/* :root {
+ 
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
 
-  /* Text colors  */
+  
   --main-text-color: #212121;
   --p-text-color: #757575;
   --black-text-color: #000000;
@@ -11,7 +11,7 @@
   --white-text-color: #ffffff;
   --link-social-color: #AFB1B8;
 
-  /* Background colors */
+  
   --main-bgr: #ffffff;
   --main-title-footer-bgr: #2f303a;
   --primary-btn-bgr: #2196f3;
@@ -20,28 +20,28 @@
   --team-btn-portfolio-bgr: #f5f4fa;
   --section-service-bgr: #C4C4C4;
 
-  /*  Border colors */
+ 
   --border-header: #ececec;
   --border-portfolio: #eeeeee;
 
-  /* Icons */
+  
 
-  /* Значення для сітки */
+  
   --items: 3;
   --indent: 30px;
-}
+} */
 
-body {
+/* body {
   font-family: var(--main-font);
   color: var(--main-text-color);
   font-size: 14px;
   background-color: var(--main-bgr);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 /**
 |============================ | Container |============================
 */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -50,21 +50,20 @@ h6,
 p {
   margin: 0;
   padding: 0;
-}
-.container {
-  /* outline: 2px solid tomato; */
+} */
+/* .container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 /**
 |============================
 |       LOGO
 |============================
 */
-.logo {
+/* .logo {
   display: inline-block;
   font-family: Raleway;
   font-weight: 700;
@@ -87,24 +86,24 @@ p {
 }
 .logo__light {
   color: var(--white-text-color);
-}
+} */
 /**
 |============================ | Header |============================
 */
-.header {
+/* .header {
   background-color: var(--second-btn-bgr);
   border-bottom: 1px solid var(--border-header);
 }
 .header__container {
   display: flex;
   justify-content: center;
-}
+} */
 /**
 |============================
 | Main navigation
 |============================
 */
-.nav {
+/* .nav {
   display: flex;
   margin-right: auto;
 }
@@ -145,13 +144,13 @@ p {
 .nav__link:hover,
 .nav__link:focus {
   color: var(--logo-text-color);
-}
+} */
 /**
 |============================
 |       Contacts
 |============================
 */
-.contact {
+/* .contact {
   display: flex;
   gap: 30px;
 }
@@ -183,36 +182,30 @@ p {
 .contact__icon:hover,
 .contact__icon:focus {
   fill: currentColor;
-}
-
-
-
-
+} */
 
 /** 
 |============================ | Image  |============================
 */
-.image,
-.team__image,
-.portfolio__img {
+/* .image, {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 /**
 |============================ | Main |============================
 */
 
-.list {
+/* .list {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-.section {
+} */
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
+} */
+/* 
 .service__container {
   height: 600px;
   max-width: 1600px;
@@ -240,13 +233,13 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
-}
+} */
 /**
 |============================
 |          Button
 |============================
 */
-.button {
+/* .button {
   margin-right: auto;
   margin-left: auto;
   padding: 10px 23px;
@@ -272,14 +265,14 @@ p {
 .button:focus,
 .button:active {
   background-color: var(--active-btn-brg);
-}
+} */
 
 /**
 |============================
 |      Visually-hidden
 |============================
 */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -290,11 +283,11 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 /**
 |============================| Переваги |============================
 */
-.benefits__box {
+/* .benefits__box {
   height: 120px;
   background-color: var(--team-btn-portfolio-bgr);
   border-radius: 4px;
@@ -331,12 +324,12 @@ p {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--p-text-color);
-}
+} */
 /**
 |============================ | Works - Чим ми займаємось |============================
 */
 
-.works {
+/* .works {
   padding-top: 0;
 }
 .works__title {
@@ -383,12 +376,12 @@ p {
 
 .works__item {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
+} */
 /**
 |============================ | Team  |============================
 */
 
-.team {
+/* .team {
   background-color: var(--team-btn-portfolio-bgr);
 }
 .team__list {
@@ -414,6 +407,9 @@ p {
   color: var(--main-text-color);
 }
 .team__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
   background-color: url(4853.jpg);
   border-radius: 0px;
 }
@@ -435,13 +431,13 @@ p {
   letter-spacing: 0.03em;
   color: var(--p-text-color);
   margin-bottom: 16px;
-}
+} */
 
 
 /**
  |============================| Клієнти |============================
 */
-.clients__title {
+/* .clients__title {
  margin-bottom: 50px;
 
  font-weight: 700;
@@ -482,12 +478,12 @@ p {
   width: 106px;
   height: 60px;
   fill: currentColor;
-}
+} */
 
 /**
   |============================| Footer |============================
 */
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--main-title-footer-bgr);
@@ -522,14 +518,14 @@ p {
 .address__link:hover,
 .address__link:focus {
  color: var(--logo-text-color);
-}
+} */
 
 /**
 |============================
 |         Social link
 |============================
 */
-.footer-social__title {
+/* .footer-social__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16/14);
@@ -537,14 +533,14 @@ p {
   text-transform: uppercase;
   color: var(--white-text-color);
   margin-bottom: 20px;
-}
+} */
 
 /* 
   |============================
   |         Соцмережі
   |============================
 */ 
-
+/* 
 .social-links {
   display: flex;
   gap: 10px;
@@ -564,9 +560,9 @@ p {
   
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+ */
 
-
-.social-links__link:hover,
+/* .social-links__link:hover,
 .social-links__link:focus {
   color: var(--second-btn-bgr);
   background-color: var(--logo-text-color);
@@ -584,14 +580,14 @@ p {
   color: var(--second-btn-bgr);
   background-color: rgba(255, 255, 255, 0.1);
 
-}
+} */
 
 /**
 |============================
 | Підпишись на розсиллку
 |============================
 */
-.footer-field {
+/* .footer-field {
  display: block;
 }
 
@@ -636,13 +632,13 @@ p {
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
- }
+ } */
 
 /**
 |============================ | Portfolio page |============================
 */
 
-.portfolio__container {
+/* .portfolio__container {
   display: flex;
 }
 .portfolio-buttons {
@@ -699,6 +695,9 @@ p {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
   background: url(portfolio7.jpg);
 }
 .portfolio__box {
@@ -727,7 +726,7 @@ p {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--p-text-color);
-}
+} */
 
 
 /**
@@ -735,11 +734,11 @@ p {
 | Перехід на текст при ховері на фото в Portfolio
 |=================================================
 */
-.portfolio__card {
+/* .portfolio__card {
   position: relative;
   overflow: hidden;
-}
-.portfolio-overlay {
+} */
+/* .portfolio-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -766,12 +765,12 @@ p {
 .portfolio__link:hover .portfolio-overlay,
 .portfolio__link:focus .portfolio-overlay {
  transform: translateY(0);
-}
+} */
 /**
   |============================  | Modal window  |============================
 */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -801,7 +800,7 @@ p {
   opacity: 1;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__btn {
+.btn-modal{
   position: absolute;
   top: 8px;
   right: 8px;
@@ -820,13 +819,13 @@ p {
   cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__icon {
+.btn-modal__icon {
   fill: currentColor;
 }
-.modal__btn:hover,
-.modal__btn:focus {
+.btn-modal:hover,
+.btn-modal:focus {
  color: var(--logo-text-color);
-}
+} */
 /** 
 |============================
 |           Form
