@@ -53,9 +53,10 @@
 
 .btn-modal__icon {
     fill: currentColor;
+
+    &:hover,
+    &:focus {
+    color: var(--logo-text-color);
+    }
 }
 
-.btn-modal:hover,
-.btn-modal:focus {
-    color: var(--logo-text-color);
-}

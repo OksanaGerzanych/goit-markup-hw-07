@@ -1,5 +1,6 @@
 .works {
-    padding-top: 0;
+    @include section($pt:0)
+   
 }
 
 .works__title {

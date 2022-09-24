@@ -39,12 +39,14 @@
     outline: transparent;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form-register__input:focus,
-.form-register__input:hover {
+    &:focus,
+    &:hover {
     border-color: var(--logo-text-color);
 }
+}
+&
+
 
 .form-register__icon {
     position: absolute;
@@ -75,11 +77,11 @@
     outline: transparent;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form-register__textarea:focus,
-.form-register__textarea:hover {
+    &:focus,
+    &:hover {
     border-color: var(--logo-text-color);
+    }
 }
 
 .form-register__textarea::placeholder {
@@ -124,19 +126,19 @@
 .form-register__checkbox-icon-checked {
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form-register__checkbox:checked+.form-register__checkbox-icon .form-register__checkbox-icon-checked {
+    .form-register__checkbox:checked+.form-register__checkbox-icon & {
     opacity: 1;
+   }
 }
 
 .form-register__checkbox-icon-unchecked {
     opacity: 1;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form-register__checkbox:checked+.form-register__checkbox-icon .form-register__checkbox-icon-unchecked {
+    .form-register__checkbox:checked+.form-register__checkbox-icon & {
     opacity: 0;
+    }
 }
 
 /**

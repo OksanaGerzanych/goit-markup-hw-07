@@ -2,10 +2,9 @@
 .header {
     background-color: var(--second-btn-bgr);
     border-bottom: 1px solid var(--border-header);
-    
-    &__container {
+}
+
+.header__container {
     display: flex;
     justify-content: center;
     }
-}
-

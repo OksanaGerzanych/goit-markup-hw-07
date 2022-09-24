@@ -4,7 +4,8 @@
 }
 
 .contact__link {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -12,27 +13,23 @@
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact__link {
-    display: flex;
-    align-items: center;
+    text-decoration: none; 
     color: var(--p-text-color);
-}
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.contact__link:hover,
-.contact__link:focus {
+    &:hover,
+    & :focus {
     color: var(--logo-text-color);
+    }
 }
 
 .contact__icon {
     margin-right: 10px;
     fill: currentColor;
+    
+    &:hover,
+    &:focus {
+    fill: currentColor;
+    }
 }
 
-.contact__icon:hover,
-.contact__icon:focus {
-    fill: currentColor;
-}
