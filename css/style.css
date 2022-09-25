@@ -831,7 +831,7 @@ p {
 |           Form
 |============================
 */
-
+/* 
 .form-register__title {
   display: block;
   font-weight: 700;
@@ -894,7 +894,7 @@ p {
 |        Textarea
 |============================
 */
-.form-register__textarea {
+/* .form-register__textarea {
   display: block;
   resize: none;
   width: 100%;
@@ -920,12 +920,12 @@ p {
   display: block;
   margin-bottom: 20px;
 }
-/**
+/** */
 |============================
 |          Checkbox
 |============================
 */
-.form-register__agreement {
+/* .form-register__agreement {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -959,13 +959,13 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-register__checkbox:checked + .form-register__checkbox-icon .form-register__checkbox-icon-unchecked {
   opacity: 0;
-}
+} */
 /**
 |============================
 |          Buttom
 |============================
 */
-.form-register__btn {
+/* .form-register__btn {
   padding: 10px 52px;
   border: none;
-}
+} */ */
