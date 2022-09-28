@@ -153,7 +153,7 @@ p {
 
 .service__container {
   height: 600px;
-  max-width: 1600px;
+  width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--section-service-bgr);
@@ -974,9 +974,7 @@ p {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form-register__input:focus,
-.form-register__input:hover {
+.form-register__input:focus, .form-register__input:hover {
   border-color: var(--logo-text-color);
 }
 
@@ -1010,9 +1008,7 @@ p {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form-register__textarea:focus,
-.form-register__textarea:hover {
+.form-register__textarea:focus, .form-register__textarea:hover {
   border-color: var(--logo-text-color);
 }
 
@@ -1101,7 +1097,6 @@ p {
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form-register__checkbox:checked + .form-register__checkbox-icon .form-register__checkbox-icon-checked {
   opacity: 1;
 }
@@ -1111,7 +1106,6 @@ p {
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form-register__checkbox:checked + .form-register__checkbox-icon .form-register__checkbox-icon-unchecked {
   opacity: 0;
 }
